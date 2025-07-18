@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bg1.jpeg);
+    background-size: cover;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 5vmin;
+    padding-bottom: 50px;
+}
+h3 {
+    font-size: 3vmin;
+}
+
+.main-container {
+
+    background: transparent;
+    
+}
+
+h1 {
+    font-size: 10vmin;
+    padding-bottom: 50px;
+}
+
+.mode-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.name-container {
+    background: transparent;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.name-container input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+}
+#start-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #1B1A19;
+    color: white;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15%;
+    border: none;
+    box-shadow: 0 0 1rem rgba(223, 113, 208, 0.692);
+    font-size: 8vmin;
+    color: #f73f38;
+    background-color: rgb(130, 218, 230,80%);
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #1B1A19;
+    color: white;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #1B1A19;
+    color: white;
+}
+
+#msg {
+    font-size: 8vmin;
+    color: rgb(236, 188, 55);
+    animation: pop 2s;
+}
+
+.msg-container {
+    background:transparent;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+
+.hide {
+    display: none;
+}
+
+#one-player-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #1B1A19;
+    color: white;
+}
+
+#two-player-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #1B1A19;
+    color: white;
+}
+
+
+@keyframes pop {
+    0% { transform: scale(0.7); opacity: 0.5; }
+    70% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); }
+}
